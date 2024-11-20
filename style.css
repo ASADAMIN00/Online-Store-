@@ -1,0 +1,229 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+body{
+    background-image: url(https://media.istockphoto.com/id/1247569904/vector/arrows-light-blue-abstract-futuristic-speed-on-black-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=FsTw_Yq6QkfYQems8ysJtzE8kbMAR3x1_dv7TrwBqdI=);
+    font-family: "Poppins", serif;
+    font-weight: 400;
+}
+.main{
+    width: 95%;
+    color: white;
+    background-image: url(https://media.istockphoto.com/id/1247569904/vector/arrows-light-blue-abstract-futuristic-speed-on-black-background-vector-illustration.jpg?s=612x612&w=0&k=20&c=FsTw_Yq6QkfYQems8ysJtzE8kbMAR3x1_dv7TrwBqdI=);
+    margin: 30px auto;
+    border-radius: 10px;
+  padding-bottom: 30px;
+  padding-top: 5px;
+}
+table{
+    width: 89%;
+    margin: 20px auto;
+    border-collapse: collapse;
+    text-align: center;
+}
+tr{
+   border: 1px solid #08e6de;
+    line-height: 55px;
+    font-size: 14px;
+    background-color: rgb(11, 160, 223);
+}
+h1{
+    width: 55%;
+    margin: auto;
+    text-align: center;
+    margin-top: 20px;
+    color: #DA602B;
+    background-color: #08a6d6;
+    line-height: 55px;
+    border-radius: 10px;
+    color: #bd160a;
+    text-shadow: -10px -5px 3px black;
+    text-transform: uppercase;
+    word-spacing: 2px;
+    box-shadow: 0px 0px 5px rgb(255, 255, 255);
+}
+h2{
+    text-align: center;
+    margin-top: 20px;
+    display: none;
+}
+.orders{
+    display: none;
+}
+.customers{
+    display: none;
+}
+.first-he{
+    padding-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.first{
+    display: flex;
+    gap: 25px;
+    margin-left: 85px;
+}
+.second{
+    width: 280px;
+    display: flex;
+    align-items: center;
+    background-color: #1F1F1F;
+    border-radius: 10px;
+    padding-left: 20px;
+    height: 45px;
+    position: absolute;
+    right: 190px;
+}
+.third{
+   margin-right: 90px;
+}
+.second i{
+    color: grey;
+}
+input{
+    width: 80%;
+    padding-left: 10px;
+    color: white;
+    outline: none;
+    background-color: transparent;
+    border: none;
+}
+.first-he p{
+    position: relative;
+    cursor: pointer;
+}
+.first-he p::after{
+    content: '';
+    position: absolute;
+    width: 0%;
+    height: 1.5px;
+    background-color: #DA602B;
+    bottom: -10px;
+    left: 0px;
+}
+.first-he p:hover{
+    color: #DA602B;
+   transform: translateY(-5px);
+   transition: all 1s ease-in-out;
+}
+
+.head{
+    background-color: transparent;
+}
+.id{
+    font-weight: bold;
+}
+
+.green{
+    background-color: #11241A;
+    color: #46956C;
+}
+
+#sun{
+    display: none;
+}
+
+/* Light Themee code start changing the class */
+
+.mainli{
+    width: 95%;
+    background-color: rgb(228, 224, 224);
+    margin: 30px auto;
+    border-radius: 10px;
+    padding-bottom: 30px;
+    padding-top: 5px;
+    
+}
+.h1{
+   /* padding-top: 20px; */
+    background-color: transparent;
+    color: #3B49E7;
+    border: 1px solid black;
+   text-shadow: none;
+}
+.input{
+    background-color: transparent;
+    border: 1px dotted black;
+    width: 280px;
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    padding-left: 20px;
+    height: 45px;
+    position: absolute;
+    right: 190px;
+}
+
+.input input{
+    color: black;
+}
+.input i{
+    color: black;
+}
+.tab tr{
+    border: 1px solid rgb(68, 68, 1);
+    line-height: 55px;
+    font-size: 14px;
+    background-color: rgb(255, 255, 255);
+}
+
+
+
+@media(max-width : 700px){
+    .main{
+        width: 100%;
+    }
+    h1{
+        width: 80%;
+        font-size: 18px;
+    }
+    .first-he{
+        flex-direction: column;
+        justify-content: start;
+        position: relative;
+    }
+    .first{
+        margin-left: 0;
+    }
+    .second{
+        right: 0px;
+        position: static;
+        padding-left: 0;
+    }
+    .second i{
+        margin-left: 10px;
+    }
+    .third{
+        position: absolute;
+        right: -55px;
+       bottom: 62px;
+    }
+    .third i{
+        font-size: 15px;
+    }
+   tr{
+    line-height: 30px;
+    font-size: 9px;
+   }
+
+   .tab tr{
+    font-size: 9px;
+    line-height: 30px;
+}
+.mainli{
+    width: 100%;
+}
+.input{
+    width: 280px;
+    padding-left: 0px;
+    height: 45px;
+    position: static;
+    /* right: 190px; */
+}
+.input i{
+    margin-left: 10px;
+}
+.mainli p{
+    font-size: 13px;
+}
+}

@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Array of Objects Tasks</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/7e4bb5f098.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="main" id="main">
+
+    <h1 id="headi">ASADULLAH AMIN Online Stored</h1>
+    <div class="first-he">
+        <div class="first">
+            <p onclick="customer(this)">Products</p>
+            <p onclick="customer(this)">Customer</p>
+            <p onclick="customer(this)">Order</p>
+        </div>
+        <div class="second" id="input">
+            <i class="fa-solid fa-magnifying-glass"></i>
+            <input type="text" placeholder="Search...">
+        </div>
+        <div class="third">
+            <i class="fa-solid fa-moon" id="sun" onclick="darkTheme()"></i>
+            <i class="fa-solid fa-sun" id="moon" onclick="lightTheme()"></i>
+        </div>
+    </div>
+    <!-- Products -->
+    <div class="Productss"  id="products">
+       <h2>Products</h2>
+    <table id="ProductTable">
+         <tr class="head">
+            <th>ID</th>
+             <th>Product Name</th>
+             <th>Model</th>
+             <th>Category</th>
+             <th>Price</th>
+             <th>Stocks</th>
+             <th>Colors</th>
+             <th>Screen Size</th>
+         </tr>
+    </table>
+    </div>
+         <!-- customer Table  -->
+    <div class="customers" id="customers">  
+        <h2>Customers</h2>
+      <table id="customerTable">
+        <tr class="head">
+            <th>ID</th>
+            <th>Name</th>
+            <th>Email</th>
+            <th>Phone</th>
+            <th>Adress</th>
+        </tr>
+    </table>
+   </div>
+   <!-- Orders -->
+    <div class="orders" id="orders">
+        <h2>Orders</h2>
+        <table id="orderTable">
+            <tr class="head">
+                <th>Order Id</th>
+                <th>Date</th>
+                <th>Status</th>
+                <th>TotalAmout</th>
+                <th>Product Id</th>
+                <th>Quantity</th>
+                <th>Price</th>
+            </tr>
+        </table>
+    </div>
+</div>
+  
+<script src="app.js"></script>
+
+    <h1>MADE BY MUHAMMAD ASADULLAH AMIN</h1>
+    <h1>ROLL NUMBER 272972</h1>
+
+</body>
+</html> 
